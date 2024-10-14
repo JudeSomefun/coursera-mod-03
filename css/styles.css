@@ -10,12 +10,70 @@ body {
     background-color: #4bbe57;
     border-radius: 3px;
     border: 0;
+    height: 100px;
 }
 
 #logo-img{
-    background: url('') no repeat;
-    width: 120px;
+    background: url('../images/Black\ and\ White\ Minimalist\ Circle\ Restaurant\ Food\ Logo.png') no repeat;
+    /*width: 120px;
     height: 120px;
-    margin: 10px 15px 10px 0;
+    margin: 10px 15px 10px 0;*/
+}
 
+.navbar-brand h1 {
+    color:darkblue;
+    /*font-size: 1.5em;*/
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #fbfbe1;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list a {
+    color:#000;
+    font-weight: 900;
+}
+
+#nav-list a:hover {
+    background: #fbfbe1;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #000;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+.menu {
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #4bbe57;
+}
+
+#page-title {
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#main-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.text-background {
+    height: auto;
+    padding: 20px 40px;
+    overflow: hidden;
+}
+
+footer{
+    padding: 20px;
 }

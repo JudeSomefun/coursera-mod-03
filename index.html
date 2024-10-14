@@ -5,12 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
     <title>Food, LLC</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -24,22 +18,97 @@
       <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left">
-            <div id="logo-img" alt="Logo Image"></div>
-          </a>
-        <div class="navbar-brand">
-          <a href="index.html"><h1>Food, LLC</h1></a>
+            <a href="index.html" class="pull-left" >
+              <div id="logo-img" alt="Logo Image"></div>
+            </a>
+            <div class="navbar-brand">
+              <a href="index.html"><h1>Food, LLC</h1></a>
+            </div>
 
-        </div>
+            <!--Mobile Dropdown Menu Button-->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
 
-        </div>
-
-
-      </div>
-      </nav>
+          <!--Collapseable menu-->
+          <div class="collapse navbar-collapse" id="collapseable-nav">
+              <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+                    <li><a href="#chicken"class=text-center>Chicken</a></li>
+                    <li><a href="#beef" class="text-center">Beef</a></li>
+                    <li><a href="#sushi" class="text-center">Sushi</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!--End Navbar container-->
+        </div><!--End container-->
+      </nav><!--End Header Nav-->
     </header>
-  
+     <div id="main-content" class="container">
+      <h2 id="page-title" class="text-center">Our Menu</h2>
+        <section class="row">
+          <div id="main-text" class="col-xs-12">
+            <div class="text-background">
+              <div class="menu">
+                  <h3 id="Chicken" class="text-center">Chicken</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, doloribus.
+                  Harum alias odit omnis aperiam impedit enim eaque reiciendis dolore.
+                  Placeat aliquam mollitia natus incidunt porro molestiae ut neque eos.
+                  Nostrum doloribus, eius expedita quos perspiciatis hic inventore sit culpa.
+                  Laudantium ut voluptatibus ducimus fuga nemo qui deleniti culpa? Alias?
+                  Veritatis maxime sint quis ea dignissimos aut aspernatur eaque eum.
+                  Illum vitae saepe, pariatur aliquam at consequatur. Facere, totam in!
+                  Sed beatae sapiente aut officiis deleniti cum eveniet quo corrupti.
+                  Impedit perferendis itaque corrupti hic atque ipsa quaerat nobis dolore?
+                  Rerum quia provident corrupti quaerat! Autem velit amet eos hic!
+                `</p>
+              </div>
+              <div class="menu">
+              <h3 id="Beef" class="text-center">Beef</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, corrupti?
+                    Aliquam amet omnis doloremque quam eius fuga. Error, unde nam?
+                    Impedit facilis modi voluptatum nam incidunt itaque sit nesciunt non.
+                    Non facere omnis at iste provident est laborum quidem facilis!
+                    Soluta voluptate maiores sint itaque ea adipisci repudiandae laudantium eligendi.
+                    Tempore id voluptas dolor, alias omnis sint sed totam tenetur.
+                    Esse quia, ipsa in quibusdam dolorum inventore maiores molestias quam.
+                    Labore atque fugiat ad, debitis sequi quidem ut accusamus ipsam?
+                    Cum sed enim delectus. A consectetur esse dignissimos deserunt non.
+                    Illo eveniet placeat minima aliquid porro cum, maxime dolorum possimus.
+                  </p>
+              </div>
+              <div class="menu">
+                <h3 id="sushi" class="text-center">Sushi</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, inventore!
+                    Velit accusamus voluptatum rem assumenda dolores reprehenderit aliquid? Eos, similique?
+                    Dolore quam dolor incidunt magnam vitae porro quas maxime perspiciatis.
+                    Temporibus, aperiam sint consequatur quia ipsa excepturi harum totam vero?
+                    Dolore ratione suscipit voluptas recusandae voluptatem asperiores, perspiciatis soluta ab.
+                    Quaerat non aut deserunt quis veritatis minima. Quaerat, ad necessitatibus!
+                    Reiciendis nulla doloremque cumque possimus quis omnis, architecto dignissimos sunt.
+                    Excepturi temporibus blanditiis incidunt reiciendis exercitationem explicabo sequi deserunt aut?
+                    Ab esse dolore debitis ad laborum quidem assumenda velit corporis.
+                    Neque nobis dicta consequuntur earum veniam pariatur est rerum officiis?
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+     </div>
+    
 
+     <footer class="page-footer font-small green">
+		
+      <div class="footer-copyright text-center py-3">© 2024,
+        <a href="https://github.com/JudeSomefun">Jude Somefun</a>.
+      </div>
+       
+    </footer>
     <!-- jQuery (Bootstrap JS plugins depend on it) -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
