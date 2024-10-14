@@ -1,0 +1,21 @@
+body {
+    font-size: 16px;
+    color: #000;
+    background-color: #fbfbe1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/**HEADER**/
+#header-nav{
+    background-color: #4bbe57;
+    border-radius: 3px;
+    border: 0;
+}
+
+#logo-img{
+    background: url('') no repeat;
+    width: 120px;
+    height: 120px;
+    margin: 10px 15px 10px 0;
+
+}
